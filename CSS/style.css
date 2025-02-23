@@ -148,7 +148,7 @@ form {
     text-align: center; 
     font-family: BreakingBad;
   }
-  form{
+  .index1{
 
     background: url('../img/fondo.jpg') no-repeat center center;
     background-size: cover;
