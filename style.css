@@ -19,10 +19,7 @@ body {
     font-size: 10px;
 }
 
-.fondo {
-    background-image: url(../img/fondo.jpg);
-    background-size: cover;
-}
+
 
 #bad {
     background-color: #0c3e11;
@@ -136,6 +133,7 @@ form {
     background-color: #2b2c247e;
   }
   form form fieldset {
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: .2rem;
@@ -150,7 +148,7 @@ form {
   }
   form{
 
-    background: url('../img/fondo.jpg') no-repeat center center;
+    background: url("../img/fondo.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed; /* opcional */
     min-height: 100vh; /* para asegurar que al menos ocupe la pantalla completa */
