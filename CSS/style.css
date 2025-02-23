@@ -1,0 +1,180 @@
+@font-face {
+    font-family: FuenteBB;
+    src: url('../font/BreakingBad.ttf') format('truetype');
+}
+#logo {
+    height: 200px;
+    width: 200px;
+}
+body {
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.textoG {
+    font-size: 14px;
+}
+
+.textoP {
+    font-size: 10px;
+}
+
+.fondo {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+}
+
+#bad {
+    background-color: #0c3e11;
+}
+
+#cita-walter {
+    font-family: FuenteBB;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+   
+}
+
+#poster {
+    height: 300px;
+    width: 700px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+
+    background-color:
+        #2b2c2a; 
+
+}
+
+td {
+    width: 68px;
+    height: 68px;
+    font-size: 10px;
+    border: 10px solid #2b2c2a;
+}
+
+.imagen-tabla {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
+#celda-hank{
+    background-image: url("../img/Tabla Periódica/hankschrader.png ");
+}
+.span {
+    position: relative;
+    display: inline-block; 
+    width: 100%;
+    height: 100%;
+}
+
+.elemento {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.he {
+    background-color: #c5e050;
+}
+
+.w {
+    background-color: #b8d828;
+}
+
+.st {
+    background-color: #ecf4c2;
+}
+
+.te {
+    background-color: #d5e979;
+}
+
+.sa {
+    background-color: #89a319;
+}
+
+.sp {
+    background-color: #637029;
+}
+
+.g {
+    background-color: #bcc3a0;
+}
+
+.de {
+    background-color: #828c53;
+}
+
+.ma {
+    background-color: #ab8ece;
+}
+
+.ex {
+    background-color: #c4c32d;
+}
+
+form {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-size: 10px;
+  }
+  form form {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    margin: auto;
+    background-color: #2b2c247e;
+  }
+  form form fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    padding: 1rem;
+    margin: 1rem 0 0 0;
+  }
+  body {
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    font-family: BreakingBad;
+  }
+  form{
+
+    background: url('../img/fondo.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* opcional */
+    min-height: 100vh; /* para asegurar que al menos ocupe la pantalla completa */
+    margin: 0;
+    padding: 0;
+    }
+
+
+  .fondo-index {
+    background: url('../img/fondo.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    min-height: 100vh; /* para asegurar que al menos ocupe la pantalla completa */
+    margin: 0;
+    padding: 0;
+  }
+  
+ form h1{
+    align-items: center;
+    font-size: 2.7em;     
+    font-weight: 900px;   
+    text-align: center;
+    color: black;
+ }
+
+  
+
